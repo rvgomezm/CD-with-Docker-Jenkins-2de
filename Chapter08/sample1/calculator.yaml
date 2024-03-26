@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: calculator
-        image: rgomez/kaniko-test-image:1.0
+        image: vmarroquin/kaniko-test-image:1.0
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
